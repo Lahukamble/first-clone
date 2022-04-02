@@ -1,20 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
 
-  <!DOCTYPE HTML>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Travel</title>
+</head>
+
+<body>
   <section class="showcase">
-      <link rel="stylesheet" href="style.css"/>
-      <title>MY MINI PROJECT</title>
     <header>
-        <body>
-            
-
-      <h2 class="logo">WELCOME</h2>
+      <h2 class="logo">Travel</h2>
       <div class="toggle"></div>
-      
     </header>
     <video src="explore2.mp4" muted loop autoplay></video>
     <div class="overlay"></div>
     <div class="text">
-      <h2>Never Stop To </h2> 
+      <h2>Never Stop To </h2>
       <h3>Exploring The World</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -36,19 +40,17 @@
       <li><a href="#">About Us</a></li>
     </ul>
   </div>
-  <marquee direction="left"  style="background:rgb(255, 0, 123);border:rgb(255, 0, 64) 4px SOLID" >
-    WELCOME TO MY PROJECT!!!.....
-    </marquee>
-  
+
   <script>
 
-const menuToggle = document.querySelector('.toggle');
-      const showcase = document.querySelector('.showcase');
+    const menuToggle = document.querySelector('.toggle');
+    const showcase = document.querySelector('.showcase');
 
-      menuToggle.addEventListener('click', () => {
-        menuToggle.classList.toggle('active');
-        showcase.classList.toggle('active');
-      })
+    menuToggle.addEventListener('click', () => {
+      menuToggle.classList.toggle('active');
+      showcase.classList.toggle('active');
+    })
   </script>
 </body>
+
 </html>
